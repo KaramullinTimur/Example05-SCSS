@@ -102,7 +102,7 @@ ul, ol {
   height: 86px;
   border-radius: 50%;
   border: 0;
-  background: #F0DD2B url("../img/banner-phone.png") no-repeat center/28px;
+  background: #F0DD2B url("img/banner-phone.png") no-repeat center/28px;
 }
 .button-phone:hover {
   transform: scale(1.025);
