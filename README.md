@@ -1,1 +1,1 @@
-# Example05-SCSS
+GitHub Pages: https://karamullintimur.github.io/Example05-SCSS/
