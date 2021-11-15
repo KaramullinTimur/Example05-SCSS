@@ -102,7 +102,7 @@ ul, ol {
   height: 86px;
   border-radius: 50%;
   border: 0;
-  background: #F0DD2B url("../../img/banner-phone.png") no-repeat center/28px;
+  background: #F0DD2B url("../img/banner-phone.png") no-repeat center/28px;
 }
 .button-phone:hover {
   transform: scale(1.025);
@@ -279,11 +279,11 @@ ul, ol {
 }
 
 .tariff__item--check {
-  background: url("../../img/tariffs-check.png") no-repeat center left 12px/21px;
+  background: url("../img/tariffs-check.png") no-repeat center left 12px/21px;
 }
 
 .tariff__item--cross {
-  background: url("../../img/tariffs-cross.png") no-repeat center left 12px/15px;
+  background: url("../img/tariffs-cross.png") no-repeat center left 12px/15px;
 }
 
 .tariff__price {
@@ -342,7 +342,7 @@ ul, ol {
 }
 .banner {
   padding: 213px 0 44px;
-  background: grey url("../../img/banner-bg.jpg") no-repeat center top/auto 100%;
+  background: grey url("../img/banner-bg.jpg") no-repeat center top/auto 100%;
 }
 
 .banner__container {
@@ -383,7 +383,7 @@ ul, ol {
   width: 43px;
   height: 43px;
   border: 1px solid #ffffff;
-  background: transparent url("../../img/banner-arrow.svg") no-repeat center/23px;
+  background: transparent url("../img/banner-arrow.svg") no-repeat center/23px;
 }
 .banner__button:hover {
   background-color: rgba(0, 0, 0, 0.13);
