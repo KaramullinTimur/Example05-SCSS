@@ -1,0 +1,14 @@
+// Base
+@import './base/common.scss';
+@import './base/fonts.scss';
+@import './base/reset.scss';
+@import './base/variables.scss';
+
+// Blocks
+@import './blocks/blocks.scss';
+@import './blocks/tariff.scss';
+
+// Sections
+@import './sections/banner.scss';
+@import './sections/tariffs.scss';
+@import './sections/services.scss';

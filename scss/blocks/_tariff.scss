@@ -1,0 +1,200 @@
+.tariff--grey {
+    & .tariff__card {
+        border-color: $grey;
+    }
+    & .tariff__head {
+        background-color: $grey;
+    }
+    & .tariff__price {
+        color: $grey;
+    }
+    & .tariff__item--basic {
+        &::before {
+            background-color: $grey;
+        }
+    }
+    & .tariff__decor {
+        &::before, &::after {
+            background-color: $grey;
+        }
+    }
+    & .tariff__button {
+        background-color: $grey;
+    }
+}
+.tariff--blue {
+    & .tariff__card {
+        border-color: $blue;
+    }
+    & .tariff__head {
+        background-color: $blue;
+    }
+    & .tariff__price {
+        color: $blue;
+    }
+    & .tariff__item--basic {
+        &::before {
+            background-color: $blue;
+        }
+    }
+    & .tariff__decor {
+        &::before, &::after {
+            background-color: $blue;
+        }
+    }
+    & .tariff__button {
+        background-color: $blue;
+    }
+}
+.tariff--yellow {
+    & .tariff__card {
+        border-color: $yellow;
+    }
+    & .tariff__head {
+        background-color: $yellow;
+    }
+    & .tariff__price {
+        color: $yellow;
+    }
+    & .tariff__item--basic {
+        &::before {
+            background-color: $yellow;
+        }
+    }
+    & .tariff__decor {
+        &::before, &::after {
+            background-color: $yellow;
+        }
+    }
+    & .tariff__button {
+        background-color: $yellow;
+        color: $black;
+    }
+}
+
+
+.tariff__card {
+    padding-top: 91px;
+    margin-bottom: 124px;
+    width: 304px;
+    border: 7px solid $main;
+    border-bottom: 0;
+    background-color: $white;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 100%);
+        width: 0;
+        height: 0;
+        border-left: 145px solid transparent;
+        border-right: 145px solid transparent;
+        border-top: 66px solid $white;
+    }
+}
+.tariff__head {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 38px 0;
+    width: 246px;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $main;
+}
+.tariff__list {
+    padding: 0 7px;
+    margin-bottom: 53px;
+}
+.tariff__item {
+    padding: 9px 0px 8px 51px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: $black;
+    border-bottom: 1px solid $black; 
+    position: relative; 
+}
+.tariff__item--basic {
+    &::before {
+        content: '';
+        position: absolute;
+        left: 17px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $main;
+    }
+}
+.tariff__item--check {
+    background: url('../../img/tariffs-check.png') no-repeat center left 12px / 21px;
+}
+.tariff__item--cross {
+    background: url('../../img/tariffs-cross.png') no-repeat center left 12px / 15px;
+}
+.tariff__price {
+    padding-bottom: 28px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 100%;
+    text-align: center;
+    color: $main;
+}
+.tariff__decor {
+    position: relative;
+    z-index: 2;
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 167px;
+        height: 7px;
+        background-color: $main;
+    }
+    &::before {
+        left: -7px;
+        transform-origin: bottom left;
+        transform: rotate(24.5deg);
+    }
+    &::after {
+        right: -7px;
+        transform-origin: bottom right;
+        transform: rotate(-24.5deg);
+    }
+}
+.tariff__button {
+    display: block;
+    margin: 0 auto;
+    padding: 0 31px;
+    height: 70px;
+    border: 0;
+    background-color: $main;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: $white;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    .tariff__card {
+        margin-bottom: 82px;
+    }
+}
