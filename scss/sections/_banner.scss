@@ -1,6 +1,6 @@
 .banner {
     padding: 213px 0 44px;
-    background: grey url('../../img/banner-bg.jpg') no-repeat center top / auto 100%;
+    background: grey url('../img/banner-bg.jpg') no-repeat center top / auto 100%;
 }
 .banner__container {
     position: relative;
@@ -36,7 +36,7 @@
     width: 43px;
     height: 43px;
     border: 1px solid $white;
-    background: transparent url('../../img/banner-arrow.svg') no-repeat center / 23px;
+    background: transparent url('../img/banner-arrow.svg') no-repeat center / 23px;
 
     &:hover {
         background-color: rgba(0, 0, 0, 0.13);
